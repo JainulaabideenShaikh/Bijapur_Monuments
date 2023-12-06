@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bijapur</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        body{
+            background-image: url(backgroung.jpg);
+        }
+        .heading, .monuments{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /* background-color:aqua; */
+            height: 150px;
+            width: 100%;
+            font-size: 30px;
+            color: white;
+        }
+        .heading h1{
+            font-size: 80px;
+            color:rgb(194, 186, 76);
+        }
+        .about p{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 25px;
+            text-align: justify;
+            color:cornsilk;
+            /* margin-top: 500px; */
+        }
+        .about h2{
+            color: cornsilk;
+            text-align: center;
+            margin-top: 500px;
+            font-size: 50px;
+            
+        }
+        #carouselExampleAutoplaying{
+            height: 400px;
+            width: 80%;
+            margin-left: 150px;
+        }
+        .monuments h2{
+          color: cornsilk;
+          text-align: center;
+          font-size: 50px;
+        }
+        .golgumbaz{
+          height: 400px;
+          width: 100%;
+          /* background-color: red; */
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 50px;
+        }
+        .golgumbaz img{
+          height: 350px;
+          width: 360px;
+          border: 5px solid white;
+          margin-left: 10px;
+        }
+        .golgumbaz p{
+          color:yellow;
+          font-size: 30px;
+          text-align: justify;
+          margin-right: 15px;
+        }
+        .a h2{
+          /* display: flex; */
+          margin-left: 90px;
+          color:red;
+        }
+        .barakhaman{
+          height: 400px;
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 50px;
+        }
+        .barakhaman img{
+          height: 350px;
+          width: 360px;
+          border: 5px solid white;
+          margin-right: 25px;
+        }
+        .barakhaman p{
+          font-size: 25px;
+          text-align: justify;
+          color: yellow;
+          margin-left: 15px;
+        }
+        .b h2{
+          margin-left: 95px;
+          color: red;
+        }
+
+        .ibrahim{
+          height: 400px;
+          width: 100%;
+          /* background-color: red; */
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 50px;
+        }
+        .ibrahim img{
+          height: 350px;
+          width: 360px;
+          border: 5px solid white;
+          margin-left: 10px;
+        }
+        .ibrahim p{
+          color:yellow;
+          font-size: 30px;
+          text-align: justify;
+          margin-right: 15px;
+        }
+        .c h2{
+          /* display: flex; */
+          margin-left: 90px;
+          color:red;
+        }
+
+
+        .jamamasjid{
+          height: 400px;
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 50px;
+        }
+        .jamamasjid img{
+          height: 350px;
+          width: 360px;
+          border: 5px solid white;
+          margin-right: 25px;
+        }
+        .jamamasjid p{
+          font-size: 25px;
+          text-align: justify;
+          color: yellow;
+          margin-left: 15px;
+        }
+        .d h2{
+          margin-left: 95px;
+          color: red;
+        }
+        marquee{
+          color:rgb(203, 203, 171);
+          font-size: 30px;
+          height: 100px;
+          margin-top: 25px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="heading">
+        <h1>BIJAPUR</h1>
+    </div>
+    
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="Ibrahim_Rauza.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="Gol_Gumbaz.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="Bara-Khaman-1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="Jama_Masjid.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="about">
+        <h2>About</h2>
+        <p>Bijapur, officially known as Vijayapura is the district headquarters of Bijapur district of the Karnataka state of India. It is also the headquarters for Bijapur Taluk. Bijapur city is well known for its historical monuments of architectural importance built during the rule of the Adil Shahi dynasty. It is also well known for the popular Karnataka premier league team, the Bijapur Bulls. Bijapur is located 519 km (322 mi) northwest of the state capital Bangalore and about 550 km (340 mi) from Mumbai and 210 km (130 mi) north east of the city of Belgaum.</p>
+    </div>
+    <div class="monuments">
+        <h2>Monuments</h2>
+    </div>
+    <div class="monu">
+      <div class="golgumbaz">
+        <div class="a">
+          <h2>Gol_Gumbaz</h2>
+          <a href="https://en.wikipedia.org/wiki/Gol_Gumbaz" target="_blank"><img src="Gol_Gumbaz.jpg" alt=""></a>
+          
+          
+        </div>  
+        <p>
+          The construction of the Gol Gumbaz began in the mid-17th century, during the close of Mohammed Adil Shah's reign, which was from 1627 to 1656.It is located directly behind the dargah of Hashim Pir, a Sufi saint; Richard Eaton views this as suggestive of the close relationship between the ruler and the saint.The mausoleum was never completed; construction may have halted in 1656 due to Mohammed Adil Shah's death that year.
+          <a href="https://en.wikipedia.org/wiki/Gol_Gumbaz" target="_blank">More</a></p>
+          
+      </div>
+      <div class="barakhaman">
+        <p>Ali Adil Shah of the Adil Shahi dynasty wanted to build a mausoleum of unmatched architectural quality. It was planned that twelve arches would be placed vertically as well as horizontally surrounding the tomb of Ali Adil Shah. However, for unknown reasons the work on the structure was left incomplete: only two arches were raised vertically. Rumour has it that the construction of the mausoleum was stopped because once completed its shadow would touch the Gol Gombaz. Nowadays the remains of the twelve horizontally placed arches can still be seen.
+          <a href="https://en.wikipedia.org/wiki/Bara_Kaman" target="_blank">More</a>
+        </p>
+        <div class="b">
+          <h2>Bara-Khaman</h2>
+          <a href="https://en.wikipedia.org/wiki/Bara_Kaman" target="_blank"><img src="Bara-Khaman-1.jpg" alt=""></a>
+        </div>
+      </div>
+
+      <div class="ibrahim">
+        <div class="c">
+          <h2>Ibrahim_Rauza</h2>
+          <a href="https://en.wikipedia.org/wiki/Ibrahim_Rauza" target="_blank"><img src="Ibrahim_Rauza.jpg" alt=""></a>
+          
+          
+        </div>  
+        <p>
+          The tomb was commissioned by Ibrahim Adil Shah II, and completed in 1626. It was intended for Taj Sultana, the queen of Ibrahim Adil, but as he died before her, he was interred within the tomb. An inscription credits Malik Sandal as the architect of the complex, and states that 150,000 huns were expended in its construction.
+          <a href="https://en.wikipedia.org/wiki/Ibrahim_Rauza" target="_blank">More</a></p>
+          
+      </div>
+
+      <div class="jamamasjid">
+        <p>The construction of the Jama Masjid was begun by Ali Adil Shah I in the year 1576. The project was financed with money looted from the Battle of Talikota, in which an alliance of Deccan Sultanates had emerged victorious against the Vijayanagara Empire. Though the majority of the mosque was constructed by 1686, the structure never reached completion. It nonetheless came to serve as the principal mosque of Bijapur, replacing an older, smaller congregational mosque built by Ibrahim Adil Shah I.
+          <a href="https://en.wikipedia.org/wiki/Jama_Mosque,_Bijapur" target="_blank">More</a>
+        </p>
+        <div class="d">
+          <h2>Jama_Masjid</h2>
+          <a href="https://en.wikipedia.org/wiki/Jama_Mosque,_Bijapur" target="_blank"><img src="jama.jpg" alt=""></a>
+        </div>
+      </div>
+    </div>
+    <marquee behavior="alternate" direction="" scrollamount="20"><b>Thankyou Visit Again</b></marquee>
+</body>
+</html>
